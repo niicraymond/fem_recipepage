@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Young serif";
+    src: url("recipe-page-main/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("recipe-page-main/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+.container{
+    background-color: white;
+    width: 700px;
+    border-radius: 20px;
+}
+
+body {
+    margin: 128px 704px;
+    background-color: #F3E5D7;
+    border-radius: 12px;
+
+}
+
+header {   
+ padding: 40px 32px 0px 32px
+ 
+}
+
+h1 {
+   
+}
+
+p {
+    color: #5f564d
+}
+
+h2 {
+color: #7A284E;
+}
+
+h3 {
+    color: #854632
+}
+
+img {
+	border-radius: 12px;
+	height: 300px;
+    width: 100%;
+    object-fit: fill;
+}
+
+.prep-time{
+    background-color: #fff7fb;
+    margin: 40px;
+    border-radius: 12px;
+    padding: 32px 40px 
+    
+}
+
+.ingredients{
+    padding: 0px 40px
+
+}
+
+ul li {
+    color: #5f564d
+}
+
+ul li::marker {
+    color: #854632
+}
+
+.instructions{
+    padding: 32px 40px
+
+}
+
+ol li {
+    color: #5f564d
+}
+
+ol li::marker {
+    color: #854632    
+}
+
+.nutrition{
+    padding: 0px 40px 40px 40px
+
+}
+
+td {
+    color: #5f564d
+}
+
+.nutrient-value {
+    color: #854632;
+}
