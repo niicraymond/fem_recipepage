@@ -18,6 +18,8 @@ body {
     margin: 128px 704px;
     background-color: #F3E5D7;
     border-radius: 12px;
+    display: flex;
+    align-items: center;
 
 }
 
