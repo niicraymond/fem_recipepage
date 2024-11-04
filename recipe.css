@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Young serif";
-    src: url("recipe-page-main/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
 }
 
 @font-face {
     font-family: "Outfit";
-    src: url("recipe-page-main/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+    src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
 }
 
 .container{
@@ -18,30 +18,46 @@ body {
     margin: 128px 704px;
     background-color: #F3E5D7;
     border-radius: 12px;
-    display: flex;
-    align-items: center;
-
 }
 
 header {   
- padding: 40px 32px 0px 32px
- 
+ padding: 40px 32px 0px 32px;
 }
 
 h1 {
-   
+ font-family: "Young serif";
+ font-size: 40px;
+ line-height: 100%;
+ letter-spacing: 0px;;
+ font-weight: 400;
+
 }
 
 p {
-    color: #5f564d
+    color: #5f564d;
+    font-family: "Outfit";
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 400;
 }
 
 h2 {
-color: #7A284E;
+    color: #7A284E;
+    font-family: "Outfit";
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    font-weight: 600;
 }
 
 h3 {
-    color: #854632
+    color: #854632;
+    font-family: "Young serif";
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0px;;
+    font-weight: 400;
 }
 
 img {
@@ -60,40 +76,62 @@ img {
 }
 
 .ingredients{
-    padding: 0px 40px
+    padding: 0px 40px;
 
 }
 
 ul li {
-    color: #5f564d
+    color: #5f564d;
+    font-family: "Outfit";
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 400;
 }
 
 ul li::marker {
-    color: #854632
+    color: #854632;
 }
 
 .instructions{
-    padding: 32px 40px
+    padding: 32px 40px;
 
 }
 
 ol li {
-    color: #5f564d
+    color: #5f564d;
+    font-family: "Outfit";
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 400;
 }
 
 ol li::marker {
-    color: #854632    
+    color: #854632;    
 }
 
 .nutrition{
-    padding: 0px 40px 40px 40px
+    padding: 0px 40px 40px 40px;
 
 }
 
 td {
-    color: #5f564d
+    color: #5f564d;
+    font-family: "Outfit";
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 400;
 }
 
 .nutrient-value {
     color: #854632;
+}
+
+.attribution {
+    /* position: absolute; */
+    bottom: 10px;
+    margin-top: 60px;
+    font-size: 12px;
 }
